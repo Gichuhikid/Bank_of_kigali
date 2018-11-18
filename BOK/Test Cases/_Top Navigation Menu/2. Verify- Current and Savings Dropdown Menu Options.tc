@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>There should be a link in the top navigation menu for current and savings</description>
+   <name>2. Verify- Current and Savings Dropdown Menu Options</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb58d1a9-e595-4ea5-9c4c-36b3c80af684</testCaseGuid>
+   <variable>
+      <defaultValue>'Savings Account'</defaultValue>
+      <description></description>
+      <id>5664f11c-d1c1-4584-9097-105ed47bdb65</id>
+      <masked>false</masked>
+      <name>text1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Account Services'</defaultValue>
+      <description></description>
+      <id>7bd36a0d-36fe-4ee1-a643-c111fc4b220d</id>
+      <masked>false</masked>
+      <name>text2</name>
+   </variable>
+</TestCaseEntity>

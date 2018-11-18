@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>Bank_Of_Kigali</name>
+   <tag></tag>
+   <UUID>550c5be2-3319-43e4-95e6-81b6ac8d5407</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

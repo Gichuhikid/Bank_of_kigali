@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Apply Button should be present on The online banking page</description>
+   <name>Verify- APPLY NOW Button Present on Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca4401af-95ee-4fa1-8ce9-23e6c60c1e28</testCaseGuid>
+</TestCaseEntity>

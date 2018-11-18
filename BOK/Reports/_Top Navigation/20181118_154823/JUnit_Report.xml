@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="_Top Navigation" time="191" tests="4" failures="0" errors="0">
+   <testsuite name="_Top Navigation" tests="4" failures="0" errors="0" time="191" timestamp="2018-11-18 15:48:27" hostname="Tezza - DESKTOP-CTRD12V" id="Test Suites/_Top Navigation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Tezza\\Desktop\\BankOfKigali\\Bank_Of_Kigali\\Reports\\_Top Navigation\\20181118_154823"/>
+         <property name="logFiles" value="C:\\Users\\Tezza\\Desktop\\BankOfKigali\\Bank_Of_Kigali\\Reports\\_Top Navigation\\20181118_154823\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Tezza - DESKTOP-CTRD12V"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.43.53"/>
+         <property name="sessionId" value="eadf5fd98efaf836ca198482d4716bcc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to Homepage" classname="Test Cases/Navigate to Homepage" status="PASSED">
+         <system-out><![CDATA[2018-11-18 15:48:28 - [TEST_CASE][PASSED] - Test Cases/Navigate to Homepage: Test Cases/Navigate to Homepage
+
+2018-11-18 15:48:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.bk.rw/personal'
+
+2018-11-18 15:50:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.bk.rw/personal'
+
+2018-11-18 15:50:52 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-18 15:50:53 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-18 15:50:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-18 15:50:55 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/_Top Navigation Menu/1. Verify- Current and Savings Link Present" classname="Test Cases/_Top Navigation Menu/1. Verify- Current and Savings Link Present" status="PASSED">
+         <system-out><![CDATA[2018-11-18 15:50:55 - [TEST_CASE][PASSED] - Test Cases/_Top Navigation Menu/1. Verify- Current and Savings Link Present: Test Cases/_Top Navigation Menu/1. Verify- Current and Savings Link Present
+
+2018-11-18 15:50:56 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-11-18 15:50:56 - [TEST_STEP][PASSED] - Statement - temp_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Top Navigation/Current and Savings Account Link)): Text of object 'Object Repository/Top Navigation/Current and Savings Account Link' is: 'CURRENT & SAVINGS'
+
+2018-11-18 15:50:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Top Navigation/Current and Savings Account Link' is: 'CURRENT & SAVINGS'
+
+2018-11-18 15:50:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-18 15:50:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-18 15:50:58 - [TEST_STEP][PASSED] - Statement - ElementText = temp_Text.toUpperCase(): null
+
+2018-11-18 15:50:58 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(ElementText, "CURRENT & SAVINGS", false, OPTIONAL)): Expected Text Is Present on Navigation Menu
+
+2018-11-18 15:50:58 - [MESSAGE][PASSED] - Actual text 'CURRENT & SAVINGS' and expected text 'CURRENT & SAVINGS' are matched 
+
+2018-11-18 15:50:58 - [TEST_STEP][PASSED] - Statement - log.logWarning("Element Text = " + ElementText): Element Text = CURRENT & SAVINGS
+
+2018-11-18 15:50:58 - [MESSAGE][WARNING] - Element Text = CURRENT & SAVINGS
+
+2018-11-18 15:50:58 - [TEST_STEP][PASSED] - Statement - log.logWarning("Expected Text Is Present on Navigation Menu"): Expected Text Is Present on Navigation Menu
+
+2018-11-18 15:50:58 - [MESSAGE][WARNING] - Expected Text Is Present on Navigation Menu]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/_Top Navigation Menu/2. Verify- Current and Savings Dropdown Menu Options" classname="Test Cases/_Top Navigation Menu/2. Verify- Current and Savings Dropdown Menu Options" status="PASSED">
+         <system-out><![CDATA[2018-11-18 15:50:58 - [TEST_CASE][PASSED] - Test Cases/_Top Navigation Menu/2. Verify- Current and Savings Dropdown Menu Options: Test Cases/_Top Navigation Menu/2. Verify- Current and Savings Dropdown Menu Options
+
+2018-11-18 15:50:59 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-11-18 15:50:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-18 15:51:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-18 15:51:00 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(text1, false, OPTIONAL) && com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(text2, false, OPTIONAL)): Verified *Savings Account* & *Account Services* texts NOT Present Before Click ON ||Current and Savings||
+
+2018-11-18 15:51:00 - [MESSAGE][PASSED] - Text 'Savings Account' is not present on page
+
+2018-11-18 15:51:01 - [MESSAGE][PASSED] - Text 'Account Services' is not present on page
+
+2018-11-18 15:51:01 - [TEST_STEP][PASSED] - Statement - log.logWarning("Verified *" + text1 + "* & *" + text2 + "* texts NOT Present Before Click ON ||Current and Savings||"): Verified *Savings Account* & *Account Services* texts NOT Present Before Click ON ||Current and Savings||
+
+2018-11-18 15:51:01 - [MESSAGE][WARNING] - Verified *Savings Account* & *Account Services* texts NOT Present Before Click ON ||Current and Savings||
+
+2018-11-18 15:51:01 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Top Navigation/Current and Savings Account Link' is hovered
+
+2018-11-18 15:51:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Navigation/Current and Savings Account Link' is hovered
+
+2018-11-18 15:51:01 - [TEST_STEP][PASSED] - Statement - log.logWarning("Mouse Over/Click on Navigation Menu *CURRENT & SAVINGS*"): Mouse Over/Click on Navigation Menu *CURRENT & SAVINGS*
+
+2018-11-18 15:51:01 - [MESSAGE][WARNING] - Mouse Over/Click on Navigation Menu *CURRENT & SAVINGS*
+
+2018-11-18 15:51:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-18 15:51:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-18 15:51:02 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(text1, false, OPTIONAL) && com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(text2, false, OPTIONAL)): Confirmed *Current & Savings* Dropdown contains link options
+
+2018-11-18 15:51:02 - [MESSAGE][PASSED] - Text 'Savings Account' is present on page 
+
+2018-11-18 15:51:03 - [MESSAGE][PASSED] - Text 'Account Services' is present on page 
+
+2018-11-18 15:51:03 - [TEST_STEP][PASSED] - Statement - log.logWarning("Verified *" + text1 + "* & *" + text2 + "* texts Present After Click ON ||Current and Savings||"): Verified *Savings Account* & *Account Services* texts Present After Click ON ||Current and Savings||
+
+2018-11-18 15:51:03 - [MESSAGE][WARNING] - Verified *Savings Account* & *Account Services* texts Present After Click ON ||Current and Savings||
+
+2018-11-18 15:51:03 - [TEST_STEP][PASSED] - Statement - log.logWarning("Confirmed *Current & Savings* Dropdown contains link options"): Confirmed *Current & Savings* Dropdown contains link options
+
+2018-11-18 15:51:03 - [MESSAGE][WARNING] - Confirmed *Current & Savings* Dropdown contains link options]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/_Top Navigation Menu/3. Verify- Click on Online Banking Page" classname="Test Cases/_Top Navigation Menu/3. Verify- Click on Online Banking Page" status="PASSED">
+         <system-out><![CDATA[2018-11-18 15:51:03 - [TEST_CASE][PASSED] - Test Cases/_Top Navigation Menu/3. Verify- Click on Online Banking Page: Test Cases/_Top Navigation Menu/3. Verify- Click on Online Banking Page
+
+2018-11-18 15:51:03 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-11-18 15:51:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-18 15:51:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-18 15:51:04 - [TEST_STEP][PASSED] - Statement - HomePage_URL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://www.bk.rw/personal'
+
+2018-11-18 15:51:04 - [MESSAGE][PASSED] - Current window's url is: 'https://www.bk.rw/personal'
+
+2018-11-18 15:51:04 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Top Navigation/Current and Savings Account Link' is hovered
+
+2018-11-18 15:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Navigation/Current and Savings Account Link' is hovered
+
+2018-11-18 15:51:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-18 15:51:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-18 15:51:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Top Navigation/link- Online Banking' is clicked on
+
+2018-11-18 15:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Navigation/link- Online Banking' is clicked on
+
+2018-11-18 15:51:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-18 15:51:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-18 15:51:37 - [TEST_STEP][PASSED] - Statement - OnlineBanking_URL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://www.bk.rw/ways-of-banking/online-banking'
+
+2018-11-18 15:51:37 - [MESSAGE][PASSED] - Current window's url is: 'https://www.bk.rw/ways-of-banking/online-banking'
+
+2018-11-18 15:51:37 - [TEST_STEP][PASSED] - Statement - If (HomePage_URL != OnlineBanking_URL && com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent("Apply for Online Banking", false, OPTIONAL)): Successfully Navigated to Online Banking Page
+
+2018-11-18 15:51:37 - [MESSAGE][PASSED] - Text 'Apply for Online Banking' is present on page 
+
+2018-11-18 15:51:37 - [TEST_STEP][PASSED] - Statement - log.logWarning("Home Page URL = " + HomePage_URL + "|| " + "Online Page URL =" + OnlineBanking_URL): Home Page URL = https://www.bk.rw/personal|| Online Page URL =https://www.bk.rw/ways-of-banking/online-banking
+
+2018-11-18 15:51:37 - [MESSAGE][WARNING] - Home Page URL = https://www.bk.rw/personal|| Online Page URL =https://www.bk.rw/ways-of-banking/online-banking
+
+2018-11-18 15:51:37 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfully Navigated to Online Banking Page"): Successfully Navigated to Online Banking Page
+
+2018-11-18 15:51:37 - [MESSAGE][WARNING] - Successfully Navigated to Online Banking Page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-18 15:48:27 - [TEST_SUITE][PASSED] - _Top Navigation: Test Cases/_Top Navigation Menu/3. Verify- Click on Online Banking Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

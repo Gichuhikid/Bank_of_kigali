@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Links on the section should link to their desired screens</description>
+   <name>3. Verify- Open Account Section Links Link to desired Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68a84a4d-1f37-48c3-b2be-0015f54ff725</testCaseGuid>
+</TestCaseEntity>

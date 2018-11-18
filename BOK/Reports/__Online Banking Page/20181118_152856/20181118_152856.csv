@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+__Online Banking Page,Chrome 70.0.3538.102,,2018-11-18 15:29:00,2018-11-18 15:37:49,8m - 49.370s,PASSED
+,,,,,,
+Test Cases/Navigate to Homepage,Chrome 70.0.3538.102,,2018-11-18 15:29:01,2018-11-18 15:34:08,5m - 6.442s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-18 15:29:02,2018-11-18 15:34:04,5m - 2.405s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-18 15:34:04,2018-11-18 15:34:05,1.209s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:34:05,2018-11-18 15:34:07,2.054s,PASSED
+,,,,,,
+Test Cases/__Online Banking Page/Verify- APPLY NOW Button Present on Page,Chrome 70.0.3538.102,Apply Button should be present on The online banking page,2018-11-18 15:34:08,2018-11-18 15:37:48,3m - 40.886s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.102,,2018-11-18 15:34:08,2018-11-18 15:34:08,0.005s,PASSED
+callTestCase,Chrome 70.0.3538.102,,2018-11-18 15:34:08,2018-11-18 15:37:11,3m - 3.295s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:37:11,2018-11-18 15:37:13,2.005s,PASSED
+mouseOver,Chrome 70.0.3538.102,,2018-11-18 15:37:13,2018-11-18 15:37:13,0.243s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:37:13,2018-11-18 15:37:14,1.007s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-18 15:37:14,2018-11-18 15:37:44,29.587s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:37:44,2018-11-18 15:37:46,2.003s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,,2018-11-18 15:37:46,2018-11-18 15:37:46,0.044s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:37:46,2018-11-18 15:37:48,2.005s,PASSED
+Statement - button_text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Online Banking Page/button- Apply Now)),Chrome 70.0.3538.102,,2018-11-18 15:37:48,2018-11-18 15:37:48,0.154s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Online Banking Page/button- Apply Now), button_text, OPTIONAL))",Chrome 70.0.3538.102,,2018-11-18 15:37:48,2018-11-18 15:37:48,0.162s,PASSED

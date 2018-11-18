@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>There should be a link in the top navigation menu for current and savings</description>
+   <name>1. Verify- Current and Savings Link Present</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90ff915e-cb75-4bbe-8f51-0e242210f291</testCaseGuid>
+</TestCaseEntity>

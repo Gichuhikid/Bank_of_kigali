@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>1. Sell Price should be higher than cost price
+2. Sell Price should be at least 800</description>
+   <name>4 .Verify- USD Foreign Exchange Rate Values</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3d9ad6a-b8fb-4c4d-b88b-390e5fe42d8c</testCaseGuid>
+</TestCaseEntity>

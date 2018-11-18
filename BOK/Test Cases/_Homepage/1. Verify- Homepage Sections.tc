@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Homepage should have; 
+``Open Account, Get a Loan, Get a Mortage, Card Center``</description>
+   <name>1. Verify- Homepage Sections</name>
+   <tag>HomePage</tag>
+   <comment></comment>
+   <testCaseGuid>bb47be57-242d-438f-8e58-c6dcbaa65739</testCaseGuid>
+</TestCaseEntity>

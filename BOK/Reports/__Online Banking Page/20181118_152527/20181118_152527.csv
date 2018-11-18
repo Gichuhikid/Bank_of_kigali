@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+__Online Banking Page,Chrome 70.0.3538.102,,2018-11-18 15:25:31,2018-11-18 15:26:58,1m - 27.359s,FAILED
+,,,,,,
+Test Cases/Navigate to Homepage,Chrome 70.0.3538.102,,2018-11-18 15:25:32,2018-11-18 15:25:59,27.257s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-18 15:25:32,2018-11-18 15:25:57,24.254s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-18 15:25:57,2018-11-18 15:25:57,0.068s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:25:57,2018-11-18 15:25:59,2.056s,PASSED
+,,,,,,
+Test Cases/__Online Banking Page/Verify- APPLY NOW Button Present on Page,Chrome 70.0.3538.102,Apply Button should be present on The online banking page,2018-11-18 15:25:59,2018-11-18 15:26:57,58.434s,FAILED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.102,,2018-11-18 15:25:59,2018-11-18 15:25:59,0.003s,PASSED
+callTestCase,Chrome 70.0.3538.102,,2018-11-18 15:25:59,2018-11-18 15:26:23,23.476s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:26:23,2018-11-18 15:26:25,2.006s,PASSED
+mouseOver,Chrome 70.0.3538.102,,2018-11-18 15:26:25,2018-11-18 15:26:57,32.694s,FAILED

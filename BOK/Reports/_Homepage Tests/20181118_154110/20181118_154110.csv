@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+_Homepage Tests,Chrome 70.0.3538.102,,2018-11-18 15:41:14,2018-11-18 15:48:07,6m - 52.659s,PASSED
+,,,,,,
+Test Cases/Navigate to Homepage,Chrome 70.0.3538.102,,2018-11-18 15:41:15,2018-11-18 15:43:33,2m - 17.790s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-18 15:41:16,2018-11-18 15:43:30,2m - 13.343s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-18 15:43:30,2018-11-18 15:43:31,1.187s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:43:31,2018-11-18 15:43:33,2.070s,PASSED
+,,,,,,
+Test Cases/_Homepage/1. Verify- Homepage Sections,Chrome 70.0.3538.102,"Homepage should have; \n``Open Account, Get a Loan, Get a Mortage, Card Center``",2018-11-18 15:43:33,2018-11-18 15:43:36,2.964s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.102,,2018-11-18 15:43:34,2018-11-18 15:43:34,0.003s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,,2018-11-18 15:43:34,2018-11-18 15:43:34,0.065s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:43:34,2018-11-18 15:43:35,1.006s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Open account"", false, OPTIONAL))",Chrome 70.0.3538.102,,2018-11-18 15:43:35,2018-11-18 15:43:35,0.447s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Get a loan"", false, OPTIONAL))",Chrome 70.0.3538.102,,2018-11-18 15:43:35,2018-11-18 15:43:35,0.304s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Get a Mortgage"", false, OPTIONAL))",Chrome 70.0.3538.102,,2018-11-18 15:43:35,2018-11-18 15:43:36,0.319s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Card Center"", false, OPTIONAL))",Chrome 70.0.3538.102,,2018-11-18 15:43:36,2018-11-18 15:43:36,0.314s,PASSED
+,,,,,,
+Test Cases/_Homepage/2. Verify- Open Account Section Available Links,Chrome 70.0.3538.102,"Open Account section should contain links for;\n``Personal Current, Joint Account, Special Savings, Fixed Savings, Cash-extra Savings, Student Saving, Kira Kibondo``",2018-11-18 15:43:36,2018-11-18 15:43:40,3.708s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.102,,2018-11-18 15:43:37,2018-11-18 15:43:37,0.004s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:43:37,2018-11-18 15:43:38,1.006s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,,2018-11-18 15:43:38,2018-11-18 15:43:38,0.036s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:43:38,2018-11-18 15:43:39,1.008s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 70.0.3538.102,,2018-11-18 15:43:39,2018-11-18 15:43:39,0.052s,PASSED
+"Statement - Links = driver.findElement(org.openqa.selenium.By.xpath(""//div[@class='container personal-home-shtcuts']/div/div[1]//ul/li""))",Chrome 70.0.3538.102,To locate links on Open Account Section,2018-11-18 15:43:39,2018-11-18 15:43:39,0.067s,PASSED
+"Statement - sumLinks = Links.findElements(org.openqa.selenium.By.xpath(""//div[@class='container personal-home-shtcuts']/div/div[1]//ul/li/a""))",Chrome 70.0.3538.102,Locate all links available on the section,2018-11-18 15:43:39,2018-11-18 15:43:39,0.038s,PASSED
+Statement - TotalLinks = sumLinks.size(),Chrome 70.0.3538.102,,2018-11-18 15:43:39,2018-11-18 15:43:39,0.002s,PASSED
+"Statement - log.logWarning(""Number of Links= "" + TotalLinks)",Chrome 70.0.3538.102,,2018-11-18 15:43:39,2018-11-18 15:43:39,0.001s,PASSED
+"Statement - For ([links = 1, links <= TotalLinks, (links++)])",Chrome 70.0.3538.102,,2018-11-18 15:43:39,2018-11-18 15:43:40,0.736s,PASSED
+,,,,,,
+Test Cases/_Homepage/3. Verify- Open Account Section Links Link to desired Screen,Chrome 70.0.3538.102,Links on the section should link to their desired screens,2018-11-18 15:43:40,2018-11-18 15:48:02,4m - 22.711s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.102,,2018-11-18 15:43:40,2018-11-18 15:43:40,0.002s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:43:40,2018-11-18 15:43:41,1.011s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,,2018-11-18 15:43:41,2018-11-18 15:43:41,0.020s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:43:41,2018-11-18 15:43:42,1.003s,PASSED
+Statement - homePageURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 70.0.3538.102,,2018-11-18 15:43:42,2018-11-18 15:43:42,0.050s,PASSED
+"Statement - For ([link = 1, link <= 7, (link++)])",Chrome 70.0.3538.102,,2018-11-18 15:43:42,2018-11-18 15:48:02,4m - 20.113s,PASSED
+,,,,,,
+Test Cases/_Homepage/4 .Verify- USD Foreign Exchange Rate Values,Chrome 70.0.3538.102,1. Sell Price should be higher than cost price\n2. Sell Price should be at least 800,2018-11-18 15:48:02,2018-11-18 15:48:06,3.287s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.102,,2018-11-18 15:48:03,2018-11-18 15:48:03,0.001s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:48:03,2018-11-18 15:48:04,1.002s,PASSED
+scrollToElement,Chrome 70.0.3538.102,,2018-11-18 15:48:04,2018-11-18 15:48:04,0.100s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:48:04,2018-11-18 15:48:05,1.004s,PASSED
+"Statement - Currency_Name = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Homepage/table- Exchange Rate, [row:2, col:1]))",Chrome 70.0.3538.102,,2018-11-18 15:48:05,2018-11-18 15:48:06,0.092s,PASSED
+"Statement - Buy_Price = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Homepage/table- Exchange Rate, [row:2, col:2]))",Chrome 70.0.3538.102,,2018-11-18 15:48:06,2018-11-18 15:48:06,0.077s,PASSED
+"Statement - Sell_Price = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Homepage/table- Exchange Rate, [row:2, col:3]))",Chrome 70.0.3538.102,,2018-11-18 15:48:06,2018-11-18 15:48:06,0.103s,PASSED
+Statement - BuyPrice_Int = Buy_Price.toDouble(),Chrome 70.0.3538.102,,2018-11-18 15:48:06,2018-11-18 15:48:06,0.026s,PASSED
+Statement - SellPrice_Int = Sell_Price.toDouble(),Chrome 70.0.3538.102,,2018-11-18 15:48:06,2018-11-18 15:48:06,0.003s,PASSED
+Statement - If (SellPrice_Int > BuyPrice_Int && SellPrice_Int >= 800.00),Chrome 70.0.3538.102,,2018-11-18 15:48:06,2018-11-18 15:48:06,0.007s,PASSED

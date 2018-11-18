@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>_Homepage Tests</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-18T15:41:10</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>e8779647-724c-4bde-8561-44d28d195ce9</testSuiteGuid>
+   <testCaseLink>
+      <guid>f2485ee2-2b5f-43f6-9685-e844b00f8536</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Navigate to Homepage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ae75c032-1044-422c-9edc-176dc35a4f8e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_Homepage/1. Verify- Homepage Sections</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>caa3078d-0620-45d4-bb2b-6a1575f6aa7a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_Homepage/2. Verify- Open Account Section Available Links</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>adbefafd-fc3d-462b-8649-423c30b666b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9a72f1f1-4099-4e40-b699-a3ea632a57b6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7d5fc869-ce31-4eb4-bad9-b86f3eb77d0c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>941e154c-b4b3-451f-bfcb-8ad141a3f52e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>400e8605-891b-4f4a-946c-d50e84dd81ac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0c72ea03-5808-4476-a568-a5318f7b6ba8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6659da34-e750-4bd3-849f-3ec72c0c8a82</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6122903f-bd5b-4ee2-95a0-909abf0b5c6d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_Homepage/3. Verify- Open Account Section Links Link to desired Screen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1f46a53a-76d3-436a-8618-a66d7f192587</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/_Homepage/4 .Verify- USD Foreign Exchange Rate Values</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

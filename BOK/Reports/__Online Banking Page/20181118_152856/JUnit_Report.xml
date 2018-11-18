@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="__Online Banking Page" time="529" tests="2" failures="0" errors="0">
+   <testsuite name="__Online Banking Page" tests="2" failures="0" errors="0" time="529" timestamp="2018-11-18 15:29:00" hostname="Tezza - DESKTOP-CTRD12V" id="Test Suites/__Online Banking Page">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Tezza\\Desktop\\BankOfKigali\\Bank_Of_Kigali\\Reports\\__Online Banking Page\\20181118_152856"/>
+         <property name="logFiles" value="C:\\Users\\Tezza\\Desktop\\BankOfKigali\\Bank_Of_Kigali\\Reports\\__Online Banking Page\\20181118_152856\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Tezza - DESKTOP-CTRD12V"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.43.53"/>
+         <property name="sessionId" value="7a3af63956ff38ac3deeabbd82199793"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to Homepage" classname="Test Cases/Navigate to Homepage" status="PASSED">
+         <system-out><![CDATA[2018-11-18 15:29:01 - [TEST_CASE][PASSED] - Test Cases/Navigate to Homepage: Test Cases/Navigate to Homepage
+
+2018-11-18 15:29:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.bk.rw/personal'
+
+2018-11-18 15:34:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.bk.rw/personal'
+
+2018-11-18 15:34:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-18 15:34:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-18 15:34:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-18 15:34:07 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/__Online Banking Page/Verify- APPLY NOW Button Present on Page" classname="Test Cases/__Online Banking Page/Verify- APPLY NOW Button Present on Page" status="PASSED">
+         <system-out><![CDATA[2018-11-18 15:34:08 - [TEST_CASE][PASSED] - Test Cases/__Online Banking Page/Verify- APPLY NOW Button Present on Page: Test Cases/__Online Banking Page/Verify- APPLY NOW Button Present on Page
+
+2018-11-18 15:34:08 - [TEST_STEP][PASSED] - Statement - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2018-11-18 15:34:08 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Navigate to Homepage' successfully
+
+2018-11-18 15:34:08 - [TEST_CASE][PASSED] - Test Cases/Navigate to Homepage: Test Cases/Navigate to Homepage
+
+2018-11-18 15:34:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.bk.rw/personal'
+
+2018-11-18 15:34:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-18 15:37:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.bk.rw/personal'
+
+2018-11-18 15:37:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-18 15:37:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-18 15:37:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-18 15:37:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-18 15:37:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Navigate to Homepage' successfully
+
+2018-11-18 15:37:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-18 15:37:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-18 15:37:13 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Top Navigation/Current and Savings Account Link' is hovered
+
+2018-11-18 15:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Navigation/Current and Savings Account Link' is hovered
+
+2018-11-18 15:37:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-18 15:37:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-18 15:37:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Top Navigation/link- Online Banking' is clicked on
+
+2018-11-18 15:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Top Navigation/link- Online Banking' is clicked on
+
+2018-11-18 15:37:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-18 15:37:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-18 15:37:46 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 700
+
+2018-11-18 15:37:46 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 700
+
+2018-11-18 15:37:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-18 15:37:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-18 15:37:48 - [TEST_STEP][PASSED] - Statement - button_text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Online Banking Page/button- Apply Now)): Text of object 'Object Repository/Online Banking Page/button- Apply Now' is: 'Apply Now '
+
+2018-11-18 15:37:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Online Banking Page/button- Apply Now' is: 'Apply Now '
+
+2018-11-18 15:37:48 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Online Banking Page/button- Apply Now), button_text, OPTIONAL)): Successfuly Verified APPLY NOW Button is present on Page
+
+2018-11-18 15:37:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Online Banking Page/button- Apply Now' are matched.
+
+2018-11-18 15:37:48 - [TEST_STEP][PASSED] - Statement - log.logWarning("Successfuly Verified APPLY NOW Button is present on Page"): Successfuly Verified APPLY NOW Button is present on Page
+
+2018-11-18 15:37:48 - [MESSAGE][WARNING] - Successfuly Verified APPLY NOW Button is present on Page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-18 15:29:00 - [TEST_SUITE][PASSED] - __Online Banking Page: Test Cases/__Online Banking Page/Verify- APPLY NOW Button Present on Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

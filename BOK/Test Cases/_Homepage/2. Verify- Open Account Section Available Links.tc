@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open Account section should contain links for;
+``Personal Current, Joint Account, Special Savings, Fixed Savings, Cash-extra Savings, Student Saving, Kira Kibondo``</description>
+   <name>2. Verify- Open Account Section Available Links</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a08c811-3881-47d3-a5be-c309b8f3225a</testCaseGuid>
+   <variable>
+      <defaultValue>'Personal Current'</defaultValue>
+      <description></description>
+      <id>adbefafd-fc3d-462b-8649-423c30b666b0</id>
+      <masked>false</masked>
+      <name>link_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Joint Account'</defaultValue>
+      <description></description>
+      <id>9a72f1f1-4099-4e40-b699-a3ea632a57b6</id>
+      <masked>false</masked>
+      <name>link_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Special Savings'</defaultValue>
+      <description></description>
+      <id>7d5fc869-ce31-4eb4-bad9-b86f3eb77d0c</id>
+      <masked>false</masked>
+      <name>link_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Fixed Savings'</defaultValue>
+      <description></description>
+      <id>941e154c-b4b3-451f-bfcb-8ad141a3f52e</id>
+      <masked>false</masked>
+      <name>link_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cash-extra Savings'</defaultValue>
+      <description></description>
+      <id>400e8605-891b-4f4a-946c-d50e84dd81ac</id>
+      <masked>false</masked>
+      <name>link_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'Student Saving'</defaultValue>
+      <description></description>
+      <id>0c72ea03-5808-4476-a568-a5318f7b6ba8</id>
+      <masked>false</masked>
+      <name>link_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kira Kibondo'</defaultValue>
+      <description></description>
+      <id>6659da34-e750-4bd3-849f-3ec72c0c8a82</id>
+      <masked>false</masked>
+      <name>link_7</name>
+   </variable>
+</TestCaseEntity>

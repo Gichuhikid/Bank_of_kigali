@@ -1,0 +1,1957 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-18T15:48:27</date>
+  <millis>1542545307034</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/_Top Navigation</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">_Top Navigation</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/_Top Navigation</property>
+</record>
+<record>
+  <date>2018-11-18T15:48:27</date>
+  <millis>1542545307115</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;Tezza - DESKTOP-CTRD12V&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Tezza - DESKTOP-CTRD12V</property>
+</record>
+<record>
+  <date>2018-11-18T15:48:27</date>
+  <millis>1542545307118</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-11-18T15:48:27</date>
+  <millis>1542545307119</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.43.53&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.43.53</property>
+</record>
+<record>
+  <date>2018-11-18T15:48:27</date>
+  <millis>1542545307123</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.4.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.4.1.1</property>
+</record>
+<record>
+  <date>2018-11-18T15:48:28</date>
+  <millis>1542545308011</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Navigate to Homepage</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Navigate to Homepage</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Navigate to Homepage</property>
+  <property name="source">C:\\Users\\Tezza\\Desktop\\BankOfKigali\\Bank_Of_Kigali\\Test Cases\\Navigate to Homepage.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-11-18T15:48:28</date>
+  <millis>1542545308120</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:48:28</date>
+  <millis>1542545308755</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-18T15:48:29</date>
+  <millis>1542545309515</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:48:29</date>
+  <millis>1542545309537</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:48:29</date>
+  <millis>1542545309592</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:48:34</date>
+  <millis>1542545314732</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;eadf5fd98efaf836ca198482d4716bcc&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">eadf5fd98efaf836ca198482d4716bcc</property>
+</record>
+<record>
+  <date>2018-11-18T15:48:34</date>
+  <millis>1542545314756</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 70.0.3538.102&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 70.0.3538.102</property>
+</record>
+<record>
+  <date>2018-11-18T15:48:34</date>
+  <millis>1542545314757</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 10&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2018-11-18T15:48:34</date>
+  <millis>1542545314761</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-11-18T15:48:34</date>
+  <millis>1542545314762</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-11-18T15:48:34</date>
+  <millis>1542545314767</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating browser to: &amp;apos;https://www.bk.rw/personal&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:52</date>
+  <millis>1542545452575</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://www.bk.rw/personal&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:52</date>
+  <millis>1542545452578</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:52</date>
+  <millis>1542545452579</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:52</date>
+  <millis>1542545452638</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Maximizing current window</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:53</date>
+  <millis>1542545453789</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:53</date>
+  <millis>1542545453791</millis>
+  <sequence>23</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:53</date>
+  <millis>1542545453791</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:53</date>
+  <millis>1542545453845</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:55</date>
+  <millis>1542545455847</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:55</date>
+  <millis>1542545455850</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:55</date>
+  <millis>1542545455853</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Navigate to Homepage</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:55</date>
+  <millis>1542545455858</millis>
+  <sequence>29</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Navigate to Homepage</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:55</date>
+  <millis>1542545455887</millis>
+  <sequence>30</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/_Top Navigation Menu/1. Verify- Current and Savings Link Present</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/_Top Navigation Menu/1. Verify- Current and Savings Link Present</property>
+  <property name="description">There should be a link in the top navigation menu for current and savings</property>
+  <property name="id">Test Cases/_Top Navigation Menu/1. Verify- Current and Savings Link Present</property>
+  <property name="source">C:\\Users\\Tezza\\Desktop\\BankOfKigali\\Bank_Of_Kigali\\Test Cases\\_Top Navigation Menu\\1. Verify- Current and Savings Link Present.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:55</date>
+  <millis>1542545455929</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456370</millis>
+  <sequence>32</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456372</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456373</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - temp_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Top Navigation/Current and Savings Account Link))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">27</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456385</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456427</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456428</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456446</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos; located by &amp;apos;By.xpath: //section[@class=\&amp;quot;menu wb_personal-nav original\&amp;quot;]//*[@id=&amp;apos;nav&amp;apos;]//a[contains(.,&amp;apos;Current &amp;amp; Savings&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456481</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos; located by &amp;apos;By.xpath: //section[@class=\&amp;quot;menu wb_personal-nav original\&amp;quot;]//*[@id=&amp;apos;nav&amp;apos;]//a[contains(.,&amp;apos;Current &amp;amp; Savings&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456482</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Getting text of object &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456515</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos; is: &amp;apos;CURRENT &amp;amp; SAVINGS&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456516</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - temp_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Top Navigation/Current and Savings Account Link))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456517</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:56</date>
+  <millis>1542545456518</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458520</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458524</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458527</millis>
+  <sequence>47</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - ElementText = temp_Text.toUpperCase()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458537</millis>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - ElementText = temp_Text.toUpperCase()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458540</millis>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(ElementText, \&amp;quot;CURRENT &amp;amp; SAVINGS\&amp;quot;, false, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458567</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Matching actual text &amp;apos;CURRENT &amp;amp; SAVINGS&amp;apos; with expected text &amp;apos;CURRENT &amp;amp; SAVINGS&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458570</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual text &amp;apos;CURRENT &amp;amp; SAVINGS&amp;apos; and expected text &amp;apos;CURRENT &amp;amp; SAVINGS&amp;apos; are matched </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458573</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - log.logWarning(\&amp;quot;Element Text = \&amp;quot; + ElementText)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458576</millis>
+  <sequence>53</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Element Text = CURRENT &amp;amp; SAVINGS</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458577</millis>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - log.logWarning(\&amp;quot;Element Text = \&amp;quot; + ElementText)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458578</millis>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - log.logWarning(\&amp;quot;Expected Text Is Present on Navigation Menu\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458579</millis>
+  <sequence>56</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Expected Text Is Present on Navigation Menu</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458580</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - log.logWarning(\&amp;quot;Expected Text Is Present on Navigation Menu\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458581</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(ElementText, \&amp;quot;CURRENT &amp;amp; SAVINGS\&amp;quot;, false, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458582</millis>
+  <sequence>59</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/_Top Navigation Menu/1. Verify- Current and Savings Link Present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458583</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/_Top Navigation Menu/1. Verify- Current and Savings Link Present</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458592</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/_Top Navigation Menu/2. Verify- Current and Savings Dropdown Menu Options</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/_Top Navigation Menu/2. Verify- Current and Savings Dropdown Menu Options</property>
+  <property name="description">There should be a link in the top navigation menu for current and savings</property>
+  <property name="id">Test Cases/_Top Navigation Menu/2. Verify- Current and Savings Dropdown Menu Options</property>
+  <property name="source">C:\\Users\\Tezza\\Desktop\\BankOfKigali\\Bank_Of_Kigali\\Test Cases\\_Top Navigation Menu\\2. Verify- Current and Savings Dropdown Menu Options.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458614</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458789</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;text1&amp;apos; is set to Savings Account as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:58</date>
+  <millis>1542545458866</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;text2&amp;apos; is set to Account Services as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:59</date>
+  <millis>1542545459056</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">8</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:59</date>
+  <millis>1542545459059</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:50:59</date>
+  <millis>1542545459060</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">10</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-11-18T15:50:59</date>
+  <millis>1542545459063</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:00</date>
+  <millis>1542545460063</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:00</date>
+  <millis>1542545460067</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:00</date>
+  <millis>1542545460069</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(text1, false, OPTIONAL) &amp;amp;&amp;amp; com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(text2, false, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">12</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:00</date>
+  <millis>1542545460095</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text present </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:00</date>
+  <millis>1542545460600</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding text &amp;apos;Savings Account&amp;apos; on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:00</date>
+  <millis>1542545460601</millis>
+  <sequence>74</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Savings Account&amp;apos; is not present on page</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:00</date>
+  <millis>1542545460602</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text present </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461043</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding text &amp;apos;Account Services&amp;apos; on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461043</millis>
+  <sequence>77</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Account Services&amp;apos; is not present on page</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461045</millis>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - log.logWarning(\&amp;quot;Verified *\&amp;quot; + text1 + \&amp;quot;* &amp;amp; *\&amp;quot; + text2 + \&amp;quot;* texts NOT Present Before Click ON ||Current and Savings||\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">13</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461047</millis>
+  <sequence>79</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verified *Savings Account* &amp;amp; *Account Services* texts NOT Present Before Click ON ||Current and Savings||</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461048</millis>
+  <sequence>80</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - log.logWarning(\&amp;quot;Verified *\&amp;quot; + text1 + \&amp;quot;* &amp;amp; *\&amp;quot; + text2 + \&amp;quot;* texts NOT Present Before Click ON ||Current and Savings||\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461050</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(text1, false, OPTIONAL) &amp;amp;&amp;amp; com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(text2, false, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461050</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : mouseOver</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461052</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461080</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461082</millis>
+  <sequence>85</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461084</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos; located by &amp;apos;By.xpath: //section[@class=\&amp;quot;menu wb_personal-nav original\&amp;quot;]//*[@id=&amp;apos;nav&amp;apos;]//a[contains(.,&amp;apos;Current &amp;amp; Savings&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461107</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos; located by &amp;apos;By.xpath: //section[@class=\&amp;quot;menu wb_personal-nav original\&amp;quot;]//*[@id=&amp;apos;nav&amp;apos;]//a[contains(.,&amp;apos;Current &amp;amp; Savings&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461108</millis>
+  <sequence>88</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Moving mouse over object: &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461197</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos; is hovered</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461199</millis>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : mouseOver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461200</millis>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - log.logWarning(\&amp;quot;Mouse Over/Click on Navigation Menu *CURRENT &amp;amp; SAVINGS*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461201</millis>
+  <sequence>92</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Mouse Over/Click on Navigation Menu *CURRENT &amp;amp; SAVINGS*</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461202</millis>
+  <sequence>93</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - log.logWarning(\&amp;quot;Mouse Over/Click on Navigation Menu *CURRENT &amp;amp; SAVINGS*\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461203</millis>
+  <sequence>94</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:01</date>
+  <millis>1542545461205</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:02</date>
+  <millis>1542545462207</millis>
+  <sequence>96</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:02</date>
+  <millis>1542545462208</millis>
+  <sequence>97</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:02</date>
+  <millis>1542545462209</millis>
+  <sequence>98</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(text1, false, OPTIONAL) &amp;amp;&amp;amp; com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(text2, false, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:02</date>
+  <millis>1542545462229</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text present </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:02</date>
+  <millis>1542545462640</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding text &amp;apos;Savings Account&amp;apos; on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:02</date>
+  <millis>1542545462641</millis>
+  <sequence>101</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Savings Account&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:02</date>
+  <millis>1542545462642</millis>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text present </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463058</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding text &amp;apos;Account Services&amp;apos; on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463059</millis>
+  <sequence>104</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Account Services&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463060</millis>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - log.logWarning(\&amp;quot;Verified *\&amp;quot; + text1 + \&amp;quot;* &amp;amp; *\&amp;quot; + text2 + \&amp;quot;* texts Present After Click ON ||Current and Savings||\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463061</millis>
+  <sequence>106</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verified *Savings Account* &amp;amp; *Account Services* texts Present After Click ON ||Current and Savings||</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463062</millis>
+  <sequence>107</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - log.logWarning(\&amp;quot;Verified *\&amp;quot; + text1 + \&amp;quot;* &amp;amp; *\&amp;quot; + text2 + \&amp;quot;* texts Present After Click ON ||Current and Savings||\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463063</millis>
+  <sequence>108</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - log.logWarning(\&amp;quot;Confirmed *Current &amp;amp; Savings* Dropdown contains link options\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463064</millis>
+  <sequence>109</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Confirmed *Current &amp;amp; Savings* Dropdown contains link options</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463065</millis>
+  <sequence>110</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - log.logWarning(\&amp;quot;Confirmed *Current &amp;amp; Savings* Dropdown contains link options\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463065</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(text1, false, OPTIONAL) &amp;amp;&amp;amp; com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(text2, false, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463067</millis>
+  <sequence>112</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/_Top Navigation Menu/2. Verify- Current and Savings Dropdown Menu Options</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463067</millis>
+  <sequence>113</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/_Top Navigation Menu/2. Verify- Current and Savings Dropdown Menu Options</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463085</millis>
+  <sequence>114</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/_Top Navigation Menu/3. Verify- Click on Online Banking Page</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/_Top Navigation Menu/3. Verify- Click on Online Banking Page</property>
+  <property name="description">User should be navigated to Online Banking Page</property>
+  <property name="id">Test Cases/_Top Navigation Menu/3. Verify- Click on Online Banking Page</property>
+  <property name="source">C:\\Users\\Tezza\\Desktop\\BankOfKigali\\Bank_Of_Kigali\\Test Cases\\_Top Navigation Menu\\3. Verify- Click on Online Banking Page.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463113</millis>
+  <sequence>115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463600</millis>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463602</millis>
+  <sequence>117</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - log = new com.kms.katalon.core.logging.KeywordLogger()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463603</millis>
+  <sequence>118</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:03</date>
+  <millis>1542545463605</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464606</millis>
+  <sequence>120</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464607</millis>
+  <sequence>121</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464608</millis>
+  <sequence>122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - HomePage_URL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464630</millis>
+  <sequence>123</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Getting current window&amp;apos;s url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464643</millis>
+  <sequence>124</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window&amp;apos;s url is: &amp;apos;https://www.bk.rw/personal&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464644</millis>
+  <sequence>125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - HomePage_URL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464645</millis>
+  <sequence>126</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : mouseOver</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464646</millis>
+  <sequence>127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464656</millis>
+  <sequence>128</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464658</millis>
+  <sequence>129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464659</millis>
+  <sequence>130</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos; located by &amp;apos;By.xpath: //section[@class=\&amp;quot;menu wb_personal-nav original\&amp;quot;]//*[@id=&amp;apos;nav&amp;apos;]//a[contains(.,&amp;apos;Current &amp;amp; Savings&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464686</millis>
+  <sequence>131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos; located by &amp;apos;By.xpath: //section[@class=\&amp;quot;menu wb_personal-nav original\&amp;quot;]//*[@id=&amp;apos;nav&amp;apos;]//a[contains(.,&amp;apos;Current &amp;amp; Savings&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464687</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Moving mouse over object: &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464735</millis>
+  <sequence>133</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Top Navigation/Current and Savings Account Link&amp;apos; is hovered</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464736</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : mouseOver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464736</millis>
+  <sequence>135</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:04</date>
+  <millis>1542545464737</millis>
+  <sequence>136</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:05</date>
+  <millis>1542545465739</millis>
+  <sequence>137</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:05</date>
+  <millis>1542545465740</millis>
+  <sequence>138</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:05</date>
+  <millis>1542545465740</millis>
+  <sequence>139</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:05</date>
+  <millis>1542545465740</millis>
+  <sequence>140</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Top Navigation/link- Online Banking&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:05</date>
+  <millis>1542545465768</millis>
+  <sequence>141</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:05</date>
+  <millis>1542545465770</millis>
+  <sequence>142</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:05</date>
+  <millis>1542545465770</millis>
+  <sequence>143</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Top Navigation/link- Online Banking&amp;apos; located by &amp;apos;By.xpath: //section[@class=\&amp;quot;menu wb_personal-nav original\&amp;quot;]//*[@id=&amp;apos;nav&amp;apos;]//a[contains(.,&amp;apos;Online Banking&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:05</date>
+  <millis>1542545465820</millis>
+  <sequence>144</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Top Navigation/link- Online Banking&amp;apos; located by &amp;apos;By.xpath: //section[@class=\&amp;quot;menu wb_personal-nav original\&amp;quot;]//*[@id=&amp;apos;nav&amp;apos;]//a[contains(.,&amp;apos;Online Banking&amp;apos;)]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:05</date>
+  <millis>1542545465821</millis>
+  <sequence>145</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Top Navigation/link- Online Banking&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:35</date>
+  <millis>1542545495508</millis>
+  <sequence>146</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Top Navigation/link- Online Banking&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:35</date>
+  <millis>1542545495509</millis>
+  <sequence>147</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:35</date>
+  <millis>1542545495510</millis>
+  <sequence>148</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:35</date>
+  <millis>1542545495511</millis>
+  <sequence>149</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497513</millis>
+  <sequence>150</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497515</millis>
+  <sequence>151</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497516</millis>
+  <sequence>152</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - OnlineBanking_URL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497518</millis>
+  <sequence>153</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Getting current window&amp;apos;s url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497543</millis>
+  <sequence>154</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window&amp;apos;s url is: &amp;apos;https://www.bk.rw/ways-of-banking/online-banking&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497544</millis>
+  <sequence>155</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - OnlineBanking_URL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497545</millis>
+  <sequence>156</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - If (HomePage_URL != OnlineBanking_URL &amp;amp;&amp;amp; com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(\&amp;quot;Apply for Online Banking\&amp;quot;, false, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497547</millis>
+  <sequence>157</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text present </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497878</millis>
+  <sequence>158</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding text &amp;apos;Apply for Online Banking&amp;apos; on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497879</millis>
+  <sequence>159</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Apply for Online Banking&amp;apos; is present on page </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497880</millis>
+  <sequence>160</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - log.logWarning(\&amp;quot;Home Page URL = \&amp;quot; + HomePage_URL + \&amp;quot;|| \&amp;quot; + \&amp;quot;Online Page URL =\&amp;quot; + OnlineBanking_URL)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">41</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497881</millis>
+  <sequence>161</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Home Page URL = https://www.bk.rw/personal|| Online Page URL =https://www.bk.rw/ways-of-banking/online-banking</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497882</millis>
+  <sequence>162</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - log.logWarning(\&amp;quot;Home Page URL = \&amp;quot; + HomePage_URL + \&amp;quot;|| \&amp;quot; + \&amp;quot;Online Page URL =\&amp;quot; + OnlineBanking_URL)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497883</millis>
+  <sequence>163</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - log.logWarning(\&amp;quot;Successfully Navigated to Online Banking Page\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497884</millis>
+  <sequence>164</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Successfully Navigated to Online Banking Page</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497886</millis>
+  <sequence>165</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - log.logWarning(\&amp;quot;Successfully Navigated to Online Banking Page\&amp;quot;)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497887</millis>
+  <sequence>166</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - If (HomePage_URL != OnlineBanking_URL &amp;amp;&amp;amp; com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(\&amp;quot;Apply for Online Banking\&amp;quot;, false, OPTIONAL))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497888</millis>
+  <sequence>167</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/_Top Navigation Menu/3. Verify- Click on Online Banking Page</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:37</date>
+  <millis>1542545497888</millis>
+  <sequence>168</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/_Top Navigation Menu/3. Verify- Click on Online Banking Page</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-18T15:51:38</date>
+  <millis>1542545498867</millis>
+  <sequence>169</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/_Top Navigation</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+_Top Navigation,Chrome 70.0.3538.102,,2018-11-18 15:48:27,2018-11-18 15:51:38,3m - 11.833s,PASSED
+,,,,,,
+Test Cases/Navigate to Homepage,Chrome 70.0.3538.102,,2018-11-18 15:48:28,2018-11-18 15:50:55,2m - 27.847s,PASSED
+openBrowser,Chrome 70.0.3538.102,,2018-11-18 15:48:28,2018-11-18 15:50:52,2m - 23.823s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,,2018-11-18 15:50:52,2018-11-18 15:50:53,1.212s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:50:53,2018-11-18 15:50:55,2.059s,PASSED
+,,,,,,
+Test Cases/_Top Navigation Menu/1. Verify- Current and Savings Link Present,Chrome 70.0.3538.102,There should be a link in the top navigation menu for current and savings,2018-11-18 15:50:55,2018-11-18 15:50:58,2.696s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.102,,2018-11-18 15:50:56,2018-11-18 15:50:56,0.002s,PASSED
+Statement - temp_Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Top Navigation/Current and Savings Account Link)),Chrome 70.0.3538.102,,2018-11-18 15:50:56,2018-11-18 15:50:56,0.143s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:50:56,2018-11-18 15:50:58,2.007s,PASSED
+Statement - ElementText = temp_Text.toUpperCase(),Chrome 70.0.3538.102,,2018-11-18 15:50:58,2018-11-18 15:50:58,0.010s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch(ElementText, ""CURRENT & SAVINGS"", false, OPTIONAL))",Chrome 70.0.3538.102,,2018-11-18 15:50:58,2018-11-18 15:50:58,0.041s,PASSED
+,,,,,,
+Test Cases/_Top Navigation Menu/2. Verify- Current and Savings Dropdown Menu Options,Chrome 70.0.3538.102,There should be a link in the top navigation menu for current and savings,2018-11-18 15:50:58,2018-11-18 15:51:03,4.475s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.102,,2018-11-18 15:50:59,2018-11-18 15:50:59,0.003s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:50:59,2018-11-18 15:51:00,1.007s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(text1, false, OPTIONAL) && com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(text2, false, OPTIONAL))",Chrome 70.0.3538.102,,2018-11-18 15:51:00,2018-11-18 15:51:01,0.981s,PASSED
+mouseOver,Chrome 70.0.3538.102,,2018-11-18 15:51:01,2018-11-18 15:51:01,0.149s,PASSED
+"Statement - log.logWarning(""Mouse Over/Click on Navigation Menu *CURRENT & SAVINGS*"")",Chrome 70.0.3538.102,,2018-11-18 15:51:01,2018-11-18 15:51:01,0.002s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:51:01,2018-11-18 15:51:02,1.005s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(text1, false, OPTIONAL) && com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(text2, false, OPTIONAL))",Chrome 70.0.3538.102,,2018-11-18 15:51:02,2018-11-18 15:51:03,0.856s,PASSED
+,,,,,,
+Test Cases/_Top Navigation Menu/3. Verify- Click on Online Banking Page,Chrome 70.0.3538.102,User should be navigated to Online Banking Page,2018-11-18 15:51:03,2018-11-18 15:51:37,34.803s,PASSED
+Statement - log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 70.0.3538.102,,2018-11-18 15:51:03,2018-11-18 15:51:03,0.002s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:51:03,2018-11-18 15:51:04,1.004s,PASSED
+Statement - HomePage_URL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 70.0.3538.102,,2018-11-18 15:51:04,2018-11-18 15:51:04,0.036s,PASSED
+mouseOver,Chrome 70.0.3538.102,,2018-11-18 15:51:04,2018-11-18 15:51:04,0.091s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:51:04,2018-11-18 15:51:05,1.004s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-18 15:51:05,2018-11-18 15:51:35,29.769s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-18 15:51:35,2018-11-18 15:51:37,2.005s,PASSED
+Statement - OnlineBanking_URL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 70.0.3538.102,,2018-11-18 15:51:37,2018-11-18 15:51:37,0.028s,PASSED
+"Statement - If (HomePage_URL != OnlineBanking_URL && com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(""Apply for Online Banking"", false, OPTIONAL))",Chrome 70.0.3538.102,,2018-11-18 15:51:37,2018-11-18 15:51:37,0.342s,PASSED
